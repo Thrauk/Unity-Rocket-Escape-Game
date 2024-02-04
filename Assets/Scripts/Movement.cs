@@ -61,7 +61,7 @@ public class Movement : MonoBehaviour
 
     private void PlayParticles(ParticleSystem particles)
     {
-        if (!particles.isPlaying)
+        if (particles != null && !particles.isPlaying)
         {
             particles.Play();
         }
@@ -98,8 +98,15 @@ public class Movement : MonoBehaviour
 
     private void StopSideThrustersParticles()
     {
-        rightThrusterParticles.Stop();
-        leftThrusterParticles.Stop();
+        if (rightThrusterParticles != null)
+        {
+            rightThrusterParticles.Stop();
+        }
+        if (leftThrusterParticles != null)
+        {
+            leftThrusterParticles.Stop();
+
+        }
     }
 
     void ApplyRotation(float rotationThisFrame)

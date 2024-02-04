@@ -3506,6 +3506,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3852360037775193009, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8864744
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852360037775193009, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3655157
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852360037775193009, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.524466
+      objectReference: {fileID: 0}
     - target: {fileID: 6724343669030366014, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
       propertyPath: m_Name
       value: Core
@@ -3549,6 +3561,30 @@ PrefabInstance:
     - target: {fileID: 6886461782388221594, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7260906864194282699, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_ScreenX
+      value: 0.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 7260906864194282699, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_ScreenY
+      value: 0.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 7260906864194282699, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_CameraDistance
+      value: 40.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8611356418923269127, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8864744
+      objectReference: {fileID: 0}
+    - target: {fileID: 8611356418923269127, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3655157
+      objectReference: {fileID: 0}
+    - target: {fileID: 8611356418923269127, guid: d7121d1c8f0df464aacb20b4023a995b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.524466
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
